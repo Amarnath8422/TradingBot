@@ -1,7 +1,3 @@
-Here’s a comprehensive `README.md` file for your GitHub project, which explains the trading bot setup using Binance WebSocket, moving average crossovers, MongoDB integration for trade storage, and other key components. 
-
----
-
 # Trading Bot
 
 This project is a trading bot that uses real-time market data from the Binance Futures WebSocket API to implement a simple moving average crossover strategy. It automatically buys and sells based on short-term and long-term moving averages and stores the trade history in a MongoDB database.
@@ -158,14 +154,3 @@ const TradeSchema = new Schema({
 - **Backtesting**: Implement a backtesting engine to test strategies on historical data.
 - **Paper Trading Mode**: Add a simulation mode to test strategies without real money.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Feel free to submit pull requests or open issues for improvements or suggestions.
-
----
-
-This `README.md` provides all the necessary information for setting up and running your Binance trading bot. It also highlights areas for future improvements and the main functionality of the bot.
