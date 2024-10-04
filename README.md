@@ -23,15 +23,7 @@ This project is a trading bot that uses real-time market data from the Binance F
 - `mongoose`: MongoDB ODM for managing trade data in the database
 
 ## Setup
-
-1. **Clone the Repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/binance-trading-bot.git
-    cd binance-trading-bot
-    ```
-
-2. **Install Dependencies**:
+1. **Install Dependencies**:
 
     Install the necessary packages by running:
 
@@ -39,7 +31,7 @@ This project is a trading bot that uses real-time market data from the Binance F
     npm install
     ```
 
-3. **Configure MongoDB**:
+2. **Configure MongoDB**:
 
     Make sure you have MongoDB installed and running locally, or use a MongoDB Atlas cloud instance. In the file `src/database/connection.js`, adjust the `mongoURI` to match your MongoDB connection string:
 
@@ -47,7 +39,7 @@ This project is a trading bot that uses real-time market data from the Binance F
     const mongoURI = "mongodb://localhost:27017/Trading";
     ```
 
-4. **Run the Bot**:
+3. **Run the Bot**:
 
     Start the bot with the following command:
 
