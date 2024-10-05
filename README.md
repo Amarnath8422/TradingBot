@@ -44,7 +44,7 @@ This project is a trading bot that uses real-time market data from the Binance F
     Start the bot with the following command:
 
     ```bash
-    node index.js
+    node db.js
     ```
 
     If everything is configured correctly, the bot will start receiving live data from Binance and print buy/sell signals, trade details, and profit/loss to the console.
